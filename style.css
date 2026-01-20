@@ -1,0 +1,214 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.seleckt{
+    user-select: none;
+}
+.navbar{
+    border-bottom: 5px solid;
+}
+.carousel-inner{
+    border-radius: 30px;
+    
+}
+.nav-link{
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+}
+.nav-link:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(90, 2, 2);
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+#baslik{
+    margin-top: 20px;
+}
+.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px; 
+      
+  
+        max-width: 100%;  
+        height: auto;
+      }
+    
+
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    /* text-shadow: 8px 10px 8px; */
+}
+.alt-yazı{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+.resimler{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+p{
+    font-weight: 400;
+}
+.button{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+    top: 80px;
+    right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: black;
+}
+.footer{
+    padding: 50px 50px 50px;
+    background: #5f5f5f;
+    text-align: start;
+    color: whitesmoke;
+}
+li{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 500px 500px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.button2{
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.konum{
+    position: relative;
+    justify-items: flex-end;
+    margin-right: 10px;
+    bottom: 10px;
+}
+.container{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+
+}
+.elbiseler2{
+    
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+
+}
+h3{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.elbiseler3{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+h4{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.elbiseler4{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+.elbiseler5{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+h5{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+ }
+    
+.elbiseler6{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+.elbiseler7{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+.kadinlar{
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.r-resim{
+    justify-content: center;
+}
+.elbise{
+    margin-bottom: 50px;
+}
+.container10{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.container11{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+    
