@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>BÜŞ FASHION</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #f7f7f7;">
+  <div class="seleckt">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h3><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+          <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+        </svg> BÜŞ FASHION</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./index.html">Ana Sayfa</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./index2.html">Gömlek Bluz</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./index3.html">Elbise</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="./index4.html">Pantolon</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="elbise/elbise1.png"  height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="elbise/elbise5.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="elbise/elbise9.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gömlek/buluz/buluz2.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gömlek/buluz/buluz3.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gömlek/buluz/gömlek4.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gömlek/buluz/gömlek5.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gömlek/buluz/gömlek6.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pantolon/pantolon4.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pantolon/pantolon9.png" height="700" class="d-block w-40" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pantolon/pantolon7.png" height="700" class="d-block w-40" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  <div class="container1">
+    <h2>Sende bu deneyimi bizle birlikte keşfetmeye hazır mısın ?</h2>
+    <p class="alt-yazı">Bu eşsiz parçalar sadece bir tık uzağında</p>
+    <div class="container10">
+      <h10>YENİ SEZON</h10>
+
+ 
+  <div>
+    <a href="https://www.zara.com/tr/" target="_blank">
+      <button class="button">Detaylı Bilgi İçin</button>
+ </a>
+  </div>
+</div>
+<div class="container.10">
+  <div class="container">
+  <div class="r-resim">
+    <div class="s-resim">
+      <img class="elbise" src="elbise/elbise zara.jpg" height="600" alt="">
+      <img class="elbise" src="elbise/kadınlar.jpg" height="600" alt="">
+    </div>
+    <div class="konum">
+      <button class="button2"> <img src="./resimler/WhatsApp.svg.webp" height="30px" alt="">
+         Whatsap:(532) 788 37 71</button>
+  </div>
+  </div>
+</div>
+<div class="footer">
+  <li>
+    <ol>Derste Öğretilenler ile yapılmıştır.</ol>
+    <ol>Html</ol>
+    <ol>CSS</ol>
+    <ol>Kullanışması gereken kodlar ile yazılmıştır.</ol>
+    <ol>Flex</ol>
+    <ol>Botstrap</ol>
+    <ol>İmg</ol>
+    <ol>Shadow</ol>
+    <ol>Grid</ol>
+  </li>
+  <footer>Bu sitenin hakları tamamen Büşra Akyol tarafından saklıdır. &COPY;</footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html> 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+          </svg> BÜŞ FASHION</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">Ana Sayfa</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index2.html">Gömlek Bluz</a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="./index3.html">Elbise</a>
+              </div>
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="./index4.html">Pantolon</a>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container.6">
+        <h5 id="baslik">GÖMLEK/BLUZ</h5>
+        <div class="elbiseler6">
+        <div class="buluz.1">
+          <a href="https://www.zara.com/tr/tr/zw-collection-drape-detayli-saten-bluz-p02731277.html?v1=385393295&v2=2420369">
+            <img class="elbise" src="gömlek/buluz/buluz1.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="gömlek.1">
+          <a href="https://www.zara.com/tr/tr/suni-suet-oversize-gomlek-p03046334.html?v1=392270255&v2=2420369">
+            <img class="elbise" src="gömlek/buluz/gömlek1.png" height="400" alt="" >
+          </a>
+        </div>
+        <div class="gömlek.3">
+          <a href="https://www.zara.com/tr/tr/islemeli-ve-firfirli-gomlek-p00881105.html?v1=410575328&v2=2420369">
+            <img class="elbise" src="gömlek/buluz/gömlek3.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="bluz.2">
+          <a href="https://www.zara.com/tr/tr/desenli-saten-bluz-p02175105.html?v1=417965775&v2=2420369">
+            <img class="elbise" src="gömlek/buluz/buluz2.png" height="400" alt="" >
+          </a>
+        </div>
+      </div>
+      <div class="container.7">
+        <div class="elbiseler7">
+          <div class="gömlek.2">
+            <a href="https://www.zara.com/tr/tr/pamuklu-oxford-gomlek-p08372060.html?v1=407167419&v2=2420369">
+              <img class="elbise" src="gömlek/buluz/gömlek2.png" height="400" alt="">
+            </a>
+          </div>
+          <div class="gömlek.5">
+            <a href="https://www.zara.com/tr/tr/cizgili-oversize-gomlek-p08670816.html?v1=384537398&v2=2420369">
+              <img class="elbise" src="gömlek/buluz/gömlek5.png" height="400" alt="">
+            </a>
+          </div>
+          <div class="gömlek.4">
+            <a href="https://www.zara.com/tr/tr/firfirli-yakali-islemeli-gomlek-p09029223.html?v1=392491665&v2=2420369">
+              <img class="elbise" src="gömlek/buluz/gömlek4.png" height="400" alt="">
+            </a>
+          </div> <div class="gömlek.6">
+            <a href="https://www.zara.com/tr/tr/dugumlu-saten-gomlek-p07969237.html?v1=373311544&v2=2420369">
+              <img class="elbise" src="gömlek/buluz/gömlek6.png" height="400" alt="">
+            </a>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+          </svg> BÜŞ FASHION</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">Ana Sayfa</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index2.html">Gömlek Bluz</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index3.html">Elbise</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index4.html">Pantolon</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container.2">
+        <h3 id="baslik">ELBİSE</h3>
+      <div class="elbiseler2">
+        <div class="pileli">
+          <a href="https://www.zara.com/tr/tr/pullu-buzgulu-elbise-p04813835.html?v1=378234751">
+            <img class="elbise" src="elbise/elbise10.png" height="400" alt="">
+          </a>
+        </div>
+          <div class="elbise.kırmızı">
+            <a href="https://www.zara.com/tr/tr/buzgulu-midi-elbise-p09224262.html?v1=420075836">
+              <img class="kırmızı.elbise" src="elbise/elbise2.png" height="400" alt="">
+            </a>
+          </div>
+          <div class="leopar">
+            <a href="https://www.zara.com/tr/tr/zw-collection-hayvan-desenli-midi-elbise-p08148431.html?v1=378759696">
+              <img class="leopar.elbise" src="elbise/elbise5.png" height="400" alt="">
+            </a> 
+           </div>
+           <div class="siyah.buzgulu">
+            <a href="https://www.zara.com/tr/tr/sirti-dugumlu-midi-elbise-p01165688.html?v1=416901347">
+              <img class="siyah.buzgulu" src="elbise/elbise3.png" height="400" alt="">
+            </a>
+           </div>
+      </div>
+      </div>
+      <div class="container.3">
+        <div class="elbiseler3">
+          <div class="siyah.mini">
+            <a href="https://www.zara.com/tr/tr/ucus-etkili-kisa-elbise-p03067210.html?v1=424968217">
+              <img class="elbise" src="elbise/elbise1.png" height="400" alt="">
+            </a>
+          </div>
+          <div class="beyaz.mini">
+            <a href="https://www.zara.com/tr/tr/strec-orgu-skater-elbise-p05584670.html?v1=393015661">
+              <img class="beyaz.mini" src="elbise/elbise4.png" height="400" alt="">
+            </a>
+           </div>
+           <div class="elbise.3">
+            <a href="https://www.zara.com/tr/tr/kesik-detayli-cicek-desenli-elbise-p08957218.html?v1=391064707">
+              <img class="elbise" src="elbise/elbise6.png" height="400" alt="">
+            </a>
+          </div> 
+          <div class="elbise.yesil">
+            <a href="https://www.zara.com/tr/tr/strec-triko-midi-elbise-p05584671.html?v1=397045633">
+              <img class="elbise.yesil" src="elbise/elbise7.png" height="400" alt="">
+            </a>
+          </div> 
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h3><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+          </svg> BÜŞ FASHION</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">Ana Sayfa</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index2.html">Gömlek Bluz</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index3.html">Elbise</a>
+            </div>
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index4.html">Pantolon</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container.4">
+        <h4 id="baslik">PANTOLON</h4>
+      <div class="elbiseler4">
+        <div class="pantolon.1">
+          <a href="https://www.zara.com/tr/tr/cift-pilili-pantolon-p01255556.html?v1=425537966">
+            <img class="elbise" src="pantolon/pantolon2.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="pantolon.3">
+          <a href="https://www.zara.com/tr/tr/suni-suet-duz-pantolon-p03046220.html?v1=379354632">
+            <img class="elbise" src="pantolon/pantolon6.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="pantolon.8">
+          <a href="https://www.zara.com/tr/tr/duz-penye-pantolon-p03199634.html?v1=415355017">
+            <img class="elbise" src="pantolon/pantolon8.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="pantolon.5">
+          <a href="https://www.zara.com/tr/tr/pensli-baggy-pantolon-p08372241.html?v1=384580344">
+            <img class="elbise" src="pantolon/pantolon5.png" height="400" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="container.5">
+      <div class="elbiseler5">
+      <div class="pantolon.7">
+        <a href="https://www.zara.com/tr/tr/cift-bel-bantli-wide-leg-pantolon-p01608225.html?v1=423154967">
+          <img class="elbise" src="pantolon/pantolon7.png" height="400" alt="">
+        </a>
+      </div>
+      <div class="pantolon.4">
+        <a href="https://www.zara.com/tr/tr/kemerli-carrot-fit-pantolon-p09929334.html?v1=419352393">
+          <img class="elbise" src="pantolon/pantolon4.png" height="400" alt="">
+        </a>
+      </div>
+        <div class="pantolon.1">
+          <a href="https://www.zara.com/tr/tr/yumusak-duz-pantolon-p05039377.html?v1=414015756">
+            <img class="elbise" src="pantolon/pantolon1.png" height="400" alt="">
+          </a>
+        </div>
+        <div class="pantolon.3">
+          <a href="https://www.zara.com/tr/tr/yumusak-fitilli-pantolon-p00264677.html?v1=423158647">
+            <img class="elbise" src="pantolon/pantolon3.png" height="400" alt="">
+          </a>
+        </div>
+      </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
